@@ -6,3 +6,5 @@ git fetch upstream
 git merge upstream/main
 git push origin main
 pause
+
+@REM Select this file n windows and run
