@@ -11,7 +11,16 @@
 
 <details>
 <summary>📈 <strong>FinTech</strong></summary>
-<!-- Aglorithmic_Trading_Strategies -->
+
+<details>
+<summary>📃 <strong>Theory</strong></summary>    
+
+- **Vectorized VS Event Driven BackTesting**: Compares vectorized and event-driven backtesting approaches, highlighting their differences in speed, realism, complexity, and use cases for trading strategy evaluation         
+→ [vectorized_vs_eventdriven_backtesting.md](FinTech/Theory/Vectorized_vs_EventDriven_BackTesting/vectorized_vs_eventdriven_backtesting.md)  
+
+  --- 
+
+</details> <!-- Close Theory -->
 
 <details>
 <summary>💹 <strong>Algorithmic Trading Strategies</strong></summary>    
@@ -19,9 +28,35 @@
 - **Buy and Hold Strategy**: Demonstrates how to implement and visualize a buy and hold investment strategy by calculating and plotting cumulative portfolio returns from historical stock data       
 → [buy_and_hold_strategy.ipynb](FinTech/Aglorithmic_Trading_Strategies/Buy_and_Hold_Strategy/buy_and_hold_strategy.ipynb)  
 
+- **Support Vector Classifier Strategy**: Demonstrates how to build, evaluate, and backtest a Support Vector Classifier (SVC) trading strategy on S&P 500 data, including feature engineering, signal prediction, and cumulative returns visualization         
+→ [support_vector_classifier_strategy.ipynbb](FinTech/Aglorithmic_Trading_Strategies/Support_Vector_Classifier_Strategy/support_vector_classifier_strategy.ipynb)  
+
   --- 
 
-</details> <!-- Close Data Visualization -->
+</details> <!-- Close Algorithmic Trading Strategies -->
+
+
+<details>
+<summary>⚙️ <strong>Options</strong></summary>    
+
+- **Call Option Payoff**: Explains and visualizes the profit and loss profiles of call option buyers and sellers by plotting payoff graphs for a 900 strike price call on Infosys stock         
+→ [call_option_payoff.ipynb](FinTech/Options/Call_Option_Payoff/call_option_payoff.ipynb)  
+
+- **Bull Call Spread Payoff**: Explains and visualizes the bull call spread options strategy by plotting the combined payoff of a long 920 strike call and a short 940 strike call on Infosys stock          
+→ [bull_call_spread_payoff.ipynb](FinTech/Options/Bull_Call_Spread_Payoff/bull_call_spread_payoff.ipynb)  
+
+- **Bear Put Spread Payoff**: Explains and visualizes the bear put spread options strategy by plotting the combined payoff of a long 880 strike put and a short 860 strike put on Infosys stock            
+→ [bear_put_spread_payoff.ipynb](FinTech/Options/Bear_Put_Spread_Payoff/bear_put_spread_payoff.ipynb) 
+
+- **Protective Put Payoff**: Explains and visualizes the protective put options strategy by plotting the combined payoff of holding a stock and buying a put option to limit downside risk                
+→ [protective_put_payoff.ipynb](FinTech/Options/Protective_Put_Payoff/protective_put_payoff.ipynb) 
+
+- **Covered Call Payoff**: Explains and visualizes the covered call options strategy by plotting the combined payoff of holding Wipro stock and selling a 300 strike call option                
+→ [covered_call_payoff.ipynb](FinTech/Options/Covered_Call_Payoff/covered_call_payoff.ipynb)
+
+  --- 
+
+</details> <!-- Close Options -->
 
 
 <details>
@@ -63,12 +98,47 @@ Key concepts and structures in time series data, including OHLCV, LTP, data gran
  Provides a general template fo a clean, reproducible quant project  
 → [quant_project_setup.md](FinTech/Quant_Project_Setup/quant_project_setup.md)
 
+- **Computing Historical Volatility**  
+ Demonstrates how to calculate and visualize 20-day historical volatility for Apple stock by computing daily log returns and rolling standard deviation    
+→ [computing_historical_volatility.ipynb](FinTech/Computing_Historical_Volatility/computing_historical_volatility.ipynb)
+
 
 
 </details> <!-- Close FinTech -->
 
 <details>
 <summary>💻 <strong>Computer Science</strong></summary>
+
+<details>
+<summary>🤖 <strong>Machine Learning</strong></summary>
+
+- **Linear Regression**  
+    Explains and demonstrates linear regression using scikit-learn, covering data preparation, model training, evaluation, and visualization of results      
+    → [linear_regression.ipynb](Computer_Science/Machine_Learning/Linear_Regression/linear_regression.ipynb)
+
+- **Logistic Regression**  
+  Demonstrates logistic regression using scikit-learn, including data preparation, model training, prediction, and visualization on the Iris dataset    
+  → [logistic_regression.ipynb](Computer_Science/Machine_Learning/Logistic_Regression/logistic_regression.ipynb)
+  
+- **KNN Classification**  
+  Demonstrates K-Nearest Neighbors (KNN) classification using scikit-learn, including model training, prediction, and visualization of decision boundaries on the Iris dataset        
+  → [knn_classification.ipynb](Computer_Science/Machine_Learning/KNN_Classification/knn_classification.ipynb)
+
+- **Support Vector Machine**  
+  Support Vector Machine (SVM) classification using scikit-learn, including model training, hyperplane creation, and visualization of decision boundaries          
+  → [support_vector_machine.ipynb](Computer_Science/Machine_Learning/Support_Vector_Machine/support_vector_machine.ipynb)
+
+- **Random Forrest**  
+  Random Forest algorithm for classification using scikit-learn, including feature engineering, model training, and accuracy evaluation on stock price data           
+  → [random_forest.ipynb](Computer_Science/Machine_Learning/Random_Forest/random_forest.ipynb)
+
+- **Artificial Neural Networks**  
+  Introduces artificial neural networks and demonstrates how to use scikit-learn's MLPClassifier for classification, covering model structure, training, prediction, and key concepts for beginners          
+  → [artificial_neural_networks.ipynb](Computer_Science/Machine_Learning/Artificial_Neural_Networks/artificial_neural_networks.ipynb)
+
+
+
+</details> <!--Close Machine Learning -->
 
 - **Logarithmic Math**  
     A clear, math-focused cheat sheet explaining how to compute and interpret logarithms (base 2 and 10) by hand, with emphasis on their role in data allocation and algorithmic complexity  
@@ -122,14 +192,6 @@ Introduces the pandas Series data structure, demonstrates its creation, manipula
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;📊 <strong>Data Structures</strong></summary>
 
-- **Data Structures Overview**  
-  Concise reference for core Python data structures, their usage, and common operations. Stacks, Queues, and Trees         
-  → [data_structures_overview.py](Python/Data_Structures/data_structures_overview.py)
-
-- **Tuples and Sets**  
-  A compact reference covering the fundamentals of Python tuples and sets, their creation, properties, and key operations like union, intersection, and immutability rules      
-  → [tuples_and_sets.py](Python/Data_Structures/Tuples_and_Sets/tuples_and_sets.py)
-
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;📖 <strong>Dictionaries</strong></summary>
 
@@ -155,6 +217,16 @@ Introduces the pandas Series data structure, demonstrates its creation, manipula
   → [list_manipulation.py](Python/Data_Structures/Lists/list_manipulation/list_manipulation.py)
 
 </details> <!-- Close Lists -->
+
+
+- **Data Structures Overview**  
+  Concise reference for core Python data structures, their usage, and common operations. Stacks, Queues, and Trees         
+  → [data_structures_overview.py](Python/Data_Structures/data_structures_overview.py)
+
+- **Tuples and Sets**  
+  A compact reference covering the fundamentals of Python tuples and sets, their creation, properties, and key operations like union, intersection, and immutability rules      
+  → [tuples_and_sets.py](Python/Data_Structures/Tuples_and_Sets/tuples_and_sets.py)
+
 
 </details> <!-- Close Data Structures -->
 
